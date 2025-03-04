@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SDWTU</string>
+    <string name="cur_bpm">CUR: -- bpm</string>
+    <string name="avg_bpm">AVG: -- bpm</string>
+    <string name="complication_label" />
+    <string name="tile_label" />
+    <string name="sync">Sync</string>
+    <string name="ba_lant_durumu">Bağlantı Durumu</string>
+    <string name="hedef_ip_adresi">Hedef IP:</string>
+    <string name="cihaz_ip_adresi">Cihaz IP:</string>
+</resources>

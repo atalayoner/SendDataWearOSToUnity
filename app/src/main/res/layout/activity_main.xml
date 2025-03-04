@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/currentHeartRateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="16dp"
+        android:text="@string/cur_bpm"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/averageHeartRateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="40dp"
+        android:text="@string/avg_bpm"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/deviceIpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-6dp"
+        android:text="@string/cihaz_ip_adresi"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/targetIpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hedef_ip_adresi"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:imeOptions="actionDone"/>
+    <TextView
+        android:id="@+id/connectionStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:text="@string/ba_lant_durumu"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/syncButton"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom | center"
+        android:layout_marginBottom="0dp"
+        android:text="@string/sync"
+        android:textSize="12sp"/>
+</androidx.wear.widget.BoxInsetLayout>
